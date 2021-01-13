@@ -21,7 +21,7 @@ while True:
     input_letters = input_letters.upper()
 
     list_of_potential_words = search_words_in_file(input_letters, "DICT_PL.txt")   # for polish
-    list_of_potential_words = search_words_in_file(input_letters, "DICT_ENG.txt")  # for english
+    #list_of_potential_words = search_words_in_file(input_letters, "DICT_ENG.txt")  # for english
 
 
     list_of_words = list_wards_filter(input_letters, list_of_potential_words)
